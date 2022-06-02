@@ -24,11 +24,18 @@
                 height: 100px;
                 border-radius: 60%;
             }
+            #container{
+                color: white;
+            }
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-        <div id="profileIcon"></div>
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0" id="container">
+            <!--
+            <div id="profileIcon"></div>
+            -->
+
+        <h1>Testing</h1>
         </div>
     </body>
 </html>
