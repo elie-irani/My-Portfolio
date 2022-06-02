@@ -45,7 +45,7 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://elieirani:14=00elhgJ@portfolio.rcxli.mongodb.net/test'),
+            'dsn' => env('DB_URI', 'mongodb+srv://elieirani:14=00elhgJ@portfolio.rcxli.mongodb.net/?retryWrites=true&w=majority'),
             'database' => 'Portfolio',
         ],
 
